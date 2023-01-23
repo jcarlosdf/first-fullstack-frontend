@@ -16,7 +16,7 @@
     @apply font-sans not-italic font-normal text-base leading-2;
   }
   .h600-medium-20px {
-    @apply font-sans not-italic font-semibold text-xl leading-1;
+    @apply font-sans not-italic font-semibold text-3xl leading-1;
   }
   .h400-medium-15px {
     @apply font-sans not-italic font-normal text-base leading-15;
@@ -24,4 +24,15 @@
   .h500-medium-14px {
     @apply font-sans not-italic font-medium text-sm leading-4;
   }
+  .btn-like{
+    @apply bg-[#D9D9D9] m-0 border-[#ffffff] w-8 h-8 border-2 rounded-full text-xl
+  }
+  .btn-like.isLike{
+    @apply bg-primary-pink m-0 border-[#ffffff] w-8 h-8 border-2 rounded-full text-xl
+  }
+}
+
+body{
+  margin: 0;
+  padding: 0;
 }
