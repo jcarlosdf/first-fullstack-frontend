@@ -5,7 +5,6 @@ import Like from '../components/atom/icon/Like';
 import Person from '../components/atom/icon/Person';
 import BtnNext from '../components/atom/button/BtnNext';
 import Atom from '../components/Atom';
-import AtomInput from '../components/AtomInput';
 import FormSearch from '../components/atom/FormSearch';
 
 
@@ -22,8 +21,7 @@ const Home: NextPage = () => {
           <Like/>     
           <Person/>
           <BtnNext/>
-          <Atom/>
-          <AtomInput/>
+          <Atom/>         
           <FormSearch/>
     </Layout>
   );
