@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { Layout } from '../components/layout';
+import { Layout } from '../components/Layout';
 import Head from 'next/head';
 import Like from '../components/atom/icon/Like';
 import Person from '../components/atom/icon/Person';
